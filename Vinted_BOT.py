@@ -10,8 +10,8 @@ wd.get("https://accounts.google.com/o/oauth2/auth/identifier?access_type=offline
 
 time.sleep(5)
 
-login = wd.find_element_by_id("identifierId").send_keys("**********") #in place of stars type mail
-netx_button1 = wd.find_element_by_xpath("//*[@id='identifierNext']/div/button/span").click()
+mail = wd.find_element_by_id("identifierId").send_keys("**********") #in place of stars type mail
+next_button1 = wd.find_element_by_xpath("//*[@id='identifierNext']/div/button/span").click()
 time.sleep(2)
 password = wd.find_element_by_name("password").send_keys("*******") #in place of stars type password
 next_button2 = wd.find_element_by_xpath("//*[@id='passwordNext']/div/button/span").click()
