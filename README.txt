@@ -1,4 +1,4 @@
-Vinted BOT by Konrad Blonka (Kabieusz)
+Vinted BOT 
 
 To run program u need to download:
 - chromedriver_binary - you need to check on your chrome browser, what version you have and download 
